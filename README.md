@@ -47,6 +47,9 @@ Now my project contains,
 5) Open another terminal in friends_side directory, then compile and run chat_machine1.c. Also there is no order in step 4 or 5 you can run chat_machine1 before chat_machine0
 6) After you finish chatting session enter "-999" (without quote) to end your side of session. Same command for both side.
 
+*NOTE* 
+1) If you want to save a massge from client side (friends_side or chat_machine1) you have to type the magic word as last update (default important:)at the beginning of the msg followed by a space. Then the server will save it with exact time.
+2) If you want to prove that you are not imposter from client side you just have to send the secret word as last update (defalut secret)
 
 ## Appendix
 [1] https://www.tutorialspoint.com/c_standard_library/c_function_localtime.htm <br>
