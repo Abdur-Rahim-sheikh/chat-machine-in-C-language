@@ -40,7 +40,7 @@ Now my project contains,
 3) pipe_creator.c
 4) reset_default.c
 
-** steps to run the project **
+**steps to run the project
 1) First compile and run the reset_default.c file, it will prepare all the txt file as needed like fresh start. Every time you run it it'll reset every log you made in the project like, chat history,important massage, changed important file keyword, changed secret word. (Note: default secret word is "secret" without quote. And default magic word is "important:" without quote.
 3) Then compile and run pipe_creator.c. It will create two named pipe at the same directory
 4) After that open a terminal in my_side directory, then compile and run chat_machine0.c
