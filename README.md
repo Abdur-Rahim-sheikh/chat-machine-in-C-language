@@ -1,7 +1,7 @@
 # chat-machine-in-C-language with two interesting feature
 
 ## Introduction
-This project implements the idea of <b>
+This project implements the idea of <br>
   1) making a chat machine where client server can send massage to each other as many time as they want without waiting for other's to reply.
   2) server side(my_side) can save important massage if a keyword is passed to the server from the client at the begining of the massage
   3) Server side can detect if the client (friend_side) is really the client or any imposter using the friends ID</i>
