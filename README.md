@@ -43,8 +43,8 @@ Now my project contains,
 <strong>steps to run the project</strong>
 1) First compile and run the reset_default.c file, it will prepare all the txt file as needed like fresh start. Every time you run it it'll reset every log you made in the project like, chat history,important massage, changed important file keyword, changed secret word. (Note: default secret word is "secret" without quote. And default magic word is "important:" without quote.
 3) Then compile and run pipe_creator.c. It will create two named pipe at the same directory
-4) After that open a terminal in my_side directory, then compile and run chat_machine0.c
-5) Open another terminal in friends_side directory, then compile and run chat_machine1.c. Also there is no order in step 4 or 5 you can run chat_machine1 before chat_machine0
+4) After that open a terminal in my_side directory, then compile and run chat_machine0.c. (contains threading compile with -pthread)
+5) Open another terminal in friends_side directory, then compile and run chat_machine1.c. (contains threading compile with -pthread) Also there is no order in step 4 or 5 you can run chat_machine1 before chat_machine0
 6) After you finish chatting session enter "-999" (without quote) to end your side of session. Same command for both side.
 
 *NOTE* 
